@@ -30,7 +30,7 @@
 	},
 	{
 		"name": "comment",
-		"scope": "comment.line.double-slash.pascal.two",
+		"scope": "comment.line.pascal",
 		"settings": {
 			"foreground": "#7d9a50",
 			"fontStyle": "bold"
