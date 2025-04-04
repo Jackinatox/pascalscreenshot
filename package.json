@@ -1,0 +1,21 @@
+{
+  "name": "pascalscreenshot",
+  "displayName": "PascalScreenshot",
+  "description": "to take screenshots of the pascal code to print out on paper",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "PascalScreenshotTheme",
+        "uiTheme": "vs",
+        "path": "./themes/PascalScreenshotTheme-color-theme.json"
+      }
+    ]
+  }
+}

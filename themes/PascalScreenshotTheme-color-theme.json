@@ -1,0 +1,59 @@
+{
+  "name": "PascalScreenshotTheme",
+  "colors": {
+    "editor.background": "#ffffff",
+    "editor.foreground": "#333333",
+    "list.activeSelectionIconForeground": "#fff"
+  },
+  "tokenColors": [
+    {
+      "name": "Keyword",
+      "scope": [
+        "keyword",
+        "storage.type.function.pascal",
+        "meta.function.pascal"
+      ],
+      "settings": {
+        "foreground": "#3777ab"
+      }
+    },
+	{
+		"name": "Black",
+		"scope": [
+			"entity.name.function.pascal",
+			"entity.name.type.pascal",
+			"meta.declaration.pascal"	
+		],
+		"settings": {
+			"foreground": "#000000",
+		}
+	},
+	{
+		"name": "comment",
+		"scope": "comment.line.double-slash.pascal.two",
+		"settings": {
+			"foreground": "#7d9a50",
+			"fontStyle": "bold"
+		}
+	},
+	{
+		"name": "XMLNode",
+		"scope": [
+			"entity.name.tag.localname.xml"
+		],
+		"settings": {
+			"foreground": "#22863a",
+			"fontStyle": "bold"
+		}
+	},
+	{
+	  "name": "Keyword",
+	  "scope": [
+		"entity.other.attribute-name.localname.xml"
+	  ],
+	  "settings": {
+		"foreground": "#3777ab"
+	  }
+	},
+]
+}
